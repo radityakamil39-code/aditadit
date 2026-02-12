@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Raditya Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .book {
+            background-color: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #357abd;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Raditya Store</h1>
+    <p>Toko Buku Online Terpercaya</p>
+</header>
+
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Daftar Buku</a>
+    <a href="#">Tentang Kami</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<div class="container">
+    <h2>Daftar Buku</h2>
+
+    <div class="book">
+        <h3>Matematika Kelas 11</h3>
+        <p>Buku pelajaran lengkap sesuai kurikulum terbaru.</p>
+        <p class="price">Rp85.000</p>
+        <button onclick="beli()">Beli Sekarang</button>
+    </div>
+
+    <div class="book">
+        <h3>Fisika Dasar SMA</h3>
+        <p>Materi lengkap dengan latihan soal.</p>
+        <p class="price">Rp90.000</p>
+        <button onclick="beli()">Beli Sekarang</button>
+    </div>
+
+    <div class="book">
+        <h3>Laskar Pelangi</h3>
+        <p>Kisah inspiratif tentang pendidikan.</p>
+        <p class="price">Rp80.000</p>
+        <button onclick="beli()">Beli Sekarang</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Raditya Store | All Rights Reserved</p>
+</footer>
+
+<script>
+    function beli() {
+        alert("✅ Pembelian Berhasil!\n\nTerima kasih sudah berbelanja di Raditya Store 🙏");
+    }
+</script>
+
+</body>
+</html>
